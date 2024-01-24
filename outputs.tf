@@ -12,3 +12,8 @@ output "private_subnet_ids" {
   description = "Private subnet IDs"
   value       = module.vpc.private_subnets
 }
+
+output "azs_list" {
+  description = "AZs list"
+  value       = module.vpc.azs
+}
