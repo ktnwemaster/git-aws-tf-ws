@@ -12,3 +12,7 @@ output "private_subnet_ids" {
   description = "Private subnet IDs"
   value       = module.vpc.private_subnets
 }
+output "igw_arn" {
+  description = "Igw arn"
+  value       = module.vpc.igw_arn
+}
