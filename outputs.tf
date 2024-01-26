@@ -17,3 +17,10 @@ output "azs_list" {
   description = "AZs list"
   value       = module.vpc.azs
 }
+
+output "igw_arn" {
+  description = "igw's arn"
+  value       = module.vpc.igw_arn
+}
+
+
